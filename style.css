@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.sideBar{
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background-color: #243d44;
+    right: -220px;
+    z-index: 1;
+    display: block;;
+    transition: 0.3s;
+    top: 0;
+}
+
+.sideBar #close{
+    float: left;
+    margin-left: 10px;
+    color: #2dea8f;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.sideBar ul{
+    margin-top: 15vh;
+}
+
+.sideBar li{
+    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    padding: 25px 0px;
+    text-align: center;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.sideBar li a{
+    color: #2dea8f;
+    transform: 0.2s;
+}
+
+.sideBar li:hover a{
+    color: whitesmoke;
+}
+
+.sideBar li:hover{
+    background-color: #167a8b;
+}
+
+#openButton{
+    font-size: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
